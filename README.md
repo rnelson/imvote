@@ -20,11 +20,11 @@ Simply click *Save and Compile* and you're ready to go!
 
 ## Usage
 
-| Command    | Users       | Arguments                                                    | Description   |
-|------------|-------------|--------------------------------------------------------------|---------------|
-| `!imopen`  | Moderators  | `time` (seconds:integer), `streamer` (for a shoutout:string) | Opens voting  |
-| `!imvote`  | Anyone      | `score` (vote from 1 to 10:integer)                          | Opens voting  |
-| `!imclose` | Moderators  |                                                              | Closes voting |
+| Command    | Users       | Arguments                                                    | Description     |
+|------------|-------------|--------------------------------------------------------------|-----------------|
+| `!imopen`  | Moderators  | `time` (seconds:integer), `streamer` (for a shoutout:string) | Opens voting    |
+| `!imvote`  | Anyone      | `score` (vote from 1 to 10:integer)                          | Submits a vote  |
+| `!imclose` | Moderators  |                                                              | Closes voting   |
 
 ![Sample runs](https://github.com/rnelson/imvote/blob/main/img/03-sample_runs.png)
 
