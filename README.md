@@ -26,6 +26,8 @@ Simply click *Save and Compile* and you're ready to go!
 | `!imvote`  | Anyone      | `score` (vote from 1 to 10:integer)                          | Submits a vote  |
 | `!imclose` | Moderators  |                                                              | Closes voting   |
 
+The voting will automatically end `time` seconds after opening, but a moderator can close it earlier by manually sending `!imclose`.
+
 ![Sample runs](https://github.com/rnelson/imvote/blob/main/img/03-sample_runs.png)
 
 ## License
